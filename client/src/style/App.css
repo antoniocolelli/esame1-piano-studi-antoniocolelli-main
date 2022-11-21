@@ -1,0 +1,176 @@
+body {
+  background-color: #F9FBFE;
+}
+
+.asPointer {
+  cursor: pointer;
+}
+
+.below-nav {
+  padding-top: 5rem;
+  margin-top: 5rem;
+}
+
+.roundedElement {
+  border-radius: 16px;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.roundedInput {
+  border-radius: 9px;
+  border-color: rgba(255, 255, 255, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.roundedError {
+  border-radius: 16px;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.roundedButton {
+  border-radius: 9px;
+  box-shadow: 0px 0px 16px 3px rgba(49, 81, 223, 0.16);
+  border-color: rgba(255, 255, 255, 0);
+  min-width: 5.5rem;
+}
+
+.shadowBorders {
+  box-shadow: 0px 0px 16px 3px rgba(49, 81, 223, 0.075)
+}
+
+.shadowText {
+  text-shadow: 0px 0px 9px rgba(204, 204, 204, 0.5);
+  color: rgba(10, 10, 100, 1) !important;
+}
+
+.shadowTextWhite {
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 0.5);
+  color: rgb(255, 255, 255) !important;
+}
+
+.shadowBordersNavbar {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px 3px rgba(49, 81, 223, 0.075)
+}
+
+.addButton {
+  border: 1px solid rgb(220, 53, 69,0) !important;
+  color: #DC3545;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px 3px rgba(49, 81, 223, 0.16);
+}
+
+.addButton.instudyplan {
+  border: 1px solid rgb(0, 0, 0,0) !important;
+  color: #ffffff;
+  background-color: rgb(22, 153, 39);
+}
+
+.addButton.disabled {
+  border: 1px solid rgb(170, 170, 170,0) !important;
+  color: #ffffff;
+  background-color: rgb(44, 44, 44);
+}
+
+.addButton.error {
+  border: 1px solid rgb(170, 170, 170,0) !important;
+  color: rgba(10, 10, 100, 1);
+  background-color: #fdc1c5;
+}
+
+.addButton:hover {
+  color: #ffffff;
+  background-color: #DC3545;
+}
+
+.littletext {
+  font-size: 16px;
+}
+
+.topForm {
+  margin-bottom: 1rem !important;
+  margin-top: 1.5rem !important;
+  margin-left: .5rem !important;
+  margin-right: .5rem !important;
+
+  min-height: 8rem;
+}
+
+.topFormNoStudyPlan {
+  margin-bottom: 1rem !important;
+  margin-top: 1.5rem !important;
+  margin-left: .5rem !important;
+  margin-right: .5rem !important;
+}
+
+.accordionHeaderEdit {
+  border-radius: 16px 16px 16px 16px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.accordionHeaderEdit.instudyplan {
+  background-color: #67BC73;
+}
+
+.accordionHeaderEdit.disabled {
+  background-color: #757676;
+}
+
+.accordionHeaderEdit.error {
+  background-color: #F8D7DA;
+}
+
+.accordion-button:after {
+  order: -1;
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
+.accordion-button {
+  border: 1px solid rgba(204, 204, 204, 0.3) !important;
+  border-radius: 16px 16px 16px 16px !important;
+  z-index: 1;
+}
+
+.collapsed {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 16px 16px 16px 16px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgba(144, 134, 134, 0);
+}
+
+.accordionBodyEdit {
+  background-color: rgba(62, 19, 206, 0);
+  color: white;
+  border-radius: 0px 0px 16px 16px;
+  font-size: 12px;
+}
+
+.accordion-item {
+  background-color: rgba(10, 10, 100, 1);
+  border: 0px solid rgba(255, 255, 255, 0);
+  border-radius: 30px 30px 18px 18px !important;
+  box-shadow: 0px 0px 16px 3px rgba(49, 81, 223, 0.09)
+}
+
+.accordion-item.instudyplan {
+  background-color: #47804e;
+}
+
+.accordion-item.disabled {
+  background-color: #505050;
+}
+
+.accordion-item.error {
+  background-color: #dfadb1;
+}
+
+accordion-collapse .collapse {
+  background-color: rgba(62, 19, 206, 0);
+  color: white;
+  border-radius: 0px 0px 16px 16px;
+}
