@@ -6,7 +6,7 @@ const { check, validationResult } = require("express-validator"); // validation 
 const passport = require("passport"); // auth middleware
 const LocalStrategy = require("passport-local").Strategy; // username and password for login
 const session = require("express-session"); // enable sessions
-const middleware = require("./utils/middleware"); // module for accessing the functions
+const middleware = require("./utils/middleware"); // module  for accessing the functions
 const userDao = require("./utils/user-dao"); // module for accessing the users in the DB
 const cors = require("cors");
 
